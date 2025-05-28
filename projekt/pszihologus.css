@@ -1,0 +1,1193 @@
+body
+{
+
+margin           : 0                     ;
+font-family      : Open Sans, sans-serif ;
+background-color : white            ;
+position: relative;
+z-index: 1;
+xbackground:linear-gradient(
+  rgba(0, 0, 0, 0.4), 
+  rgba(0, 0, 0, 0.4)
+), url(images/laciweiss.png);
+background-repeat:repeat;
+background-position-x: 110%;
+background-color: white;
+
+
+
+}
+
+div#fejlec
+{
+background-color : #FFF                  ;
+height           : 102px                   ;
+box-shadow: 0px 0px 4px 1px                ;
+z-index: 1;
+
+}
+
+a#cimerkep
+{
+display          : block                 ;
+float            : left                  ;
+margin           : 25px 35px             ;
+text-decoration  : none                  ;
+}
+
+a#cimerkep img
+{
+height           : 48px                  ; 
+width: 100%;
+}
+
+div#menu
+{
+
+width            : 100%                  ;
+padding          : 26px 0                ;
+font-size        : 15px                  ;
+font-weight      : bold                  ;
+line-height      : 22px                  ;
+user-select      : none                  ;
+}
+
+
+div#menu a
+{
+display          : inline-block          ;
+width            : 120px                 ;
+padding          : 14px 0                ;
+text-align       : center                ;
+color            : #777                ;
+text-decoration  : none                  ;
+padding-left     : 5px                   ;
+padding-right    : 5px                   ;
+border-radius    : 10px                  ; 
+}
+
+div#menu a:hover
+{
+
+  color: white;  
+  background-color: #009B77 ; 
+}
+#openmenu{
+  display: none;
+}
+
+div#belepes{
+  float: right;
+  margin-right: 30px;
+  
+
+}
+
+
+div#belepes a
+{
+
+width            : 30px                  ;
+padding          : 14px 0                ;
+padding-right    : 30px                  ; 
+text-align       : center                ;
+color            : #777                ;
+text-decoration  : none                  ;
+overflow         : hidden                ;  
+
+
+
+}
+
+div#belepes a:hover
+{ 
+  background-color: white   ;  
+  color:            #009B77 ;         
+}
+
+
+#belepesgomb{
+  background-image: url('images/loginszurke.png');
+  background-size : 30px 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 36px;
+  right: 50px;
+  border: none;
+  background-color: white;
+  
+}
+#belepesgomb:hover{
+  background-image: url('images/loginzold.png');
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+#kilepesgomb{
+  background-image: url('images/logout.png');
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 36px;
+  right: 50px;
+  border: none;
+  background-color: white;
+ 
+  
+  
+   
+}
+
+#kilepesgomb:hover{
+  background-image: url('images/logoutzold.png');
+  width: 30px;
+  height: 30px;
+}
+#openmenu2{
+  display: none;
+}
+#felsorolas2{
+  display: none;
+}
+
+
+
+
+div#tartalom
+{
+min-height       : 480px                 ;
+max-width        : 1280px                ;
+margin           : 12px auto             ;
+padding          : 16px 80px 120px 80px  ;
+}
+
+div#tartalom h1
+{
+color            : #097                  ;
+font-size        : 26px                  ;
+font-weight      : normal                ;
+}
+
+div#szoveg
+{
+color            : #333                  ;
+font-size        : 15px                  ;
+line-height      : 23px                  ;
+text-align       : justify               ;
+}
+
+div#szoveg img.kiskep
+{
+float            : right                 ;
+border           : solid 1px #666        ;
+border-radius    : 4px                   ;
+box-shadow       : 2px 2px 1px #888      ;
+}
+
+div#szoveg ul li span
+{
+display          : inline-block          ;
+width            : 200px                 ;
+font-weight      : bold                  ;
+}
+
+div#szoveg a
+{
+text-decoration  : none                  ;
+color            : #228                  ;
+}
+
+div#szoveg a:hover
+{
+text-decoration  : underline             ;
+}
+
+ul.valaszok
+{
+font-weight      : bold                  ;
+}
+
+span.adatcimke
+{
+display          : inline-block          ;
+line-height      : 30px                  ;
+width            : 120px                 ;
+}
+
+.subcontainer-1{
+  color: #009B77;
+  display:inline;
+  text-align: center;
+  width: 560px;
+}
+
+h2.alcim
+{
+font-style  : italic        ;
+color       : #097          ;
+}
+
+
+p.bevezetes
+{
+font-style  : italic        ;
+}
+
+p.kerdes
+{
+margin      : 16px 0 0 16px ;
+font-weight : bold          ;
+}
+
+p.valasz
+{
+margin      : 0 0 16px 16px ;
+}
+
+
+/*-----------------------------Alap vége-----------------------------------*/
+
+ .headingsContainer{
+    
+    
+  
+    h3{
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+  
+ }
+ .register, .forgotpsd{
+    text-align: center;
+ }
+
+ form{
+
+  position: relative;
+  z-index: 1;
+  background-image: none;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 4px 0.2px;
+ 
+  
+  
+    
+
+}
+#profilform{
+    
+
+    width: 80%;
+    max-width: 1200px; /* A maximális szélesség meghatározása */
+    padding: 20px;
+
+    box-shadow: none;
+    position: relative;
+    text-align: center;
+    
+} 
+
+
+
+#forminputok, #message, #social-searchbar{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+    border-color: #85bdb0,;
+    border: none;
+    box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+
+#regformgomb, #loginformgomb, #profilformgomb, #chatformgomb, #addFriendBtnContainer {
+    background-color: #009B77;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+
+  }
+
+  .loginFormContainer, .regFormContainer{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 102px);
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    
+    position: relative;
+    
+    
+  }
+ 
+  
+  .chatFormContainer{
+    display: flex;
+    float: right;
+    align-items: center;
+    
+    justify-content: right;
+    width: 50%;
+    height: 70vh;
+    
+    
+    position: relative;
+    
+  }
+
+  #peopleForm{
+    width: 100%;
+    
+  }
+
+  .chatsForm{
+    width: 100%;
+    background-color: none;
+    border: none;
+    
+  }
+
+  #chatForm{
+    width: 100%;
+    height: 100%;
+  }
+
+  #textarea{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    resize: none;
+  }
+
+  .chatsContainer{
+    display: flex;
+    float: left;
+    align-items: center;
+    
+    justify-content: column;
+    width: 30%;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    height: 70vh;
+    overflow: scroll;
+    position: absolute;
+}
+
+  .addFriendBtnContainer{
+    display: flex;
+    float: left;
+    align-items: center;
+    
+    justify-content: center;
+    width: 30%;
+    
+    
+    position: relative;
+    
+  }
+
+  #backToChatsBtn{
+    top: 10%;
+    position: absolute;
+  }
+
+  .socialSearchBarContainer{
+    display: flex;
+    float: right;
+    width: 70vw;
+    margin-right: 20px;
+    position: relative;
+    
+  }
+
+  .userSearchContainer{
+    display: flex;
+    float: right;
+    align-items: center;
+    
+    justify-content: column;
+    width: 70vw;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    height: 50vh;
+    overflow: scroll;
+    position: relative;
+  }
+
+  #profilformgomb{
+    padding-right: 20px;
+    padding-left:20px;
+    height: 80px;
+    width: 50%;
+    font-size: clamp(1.1rem, 2vw, 1.8 rem);
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    box-shadow: -1px -2px 5px 0px;
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: inline-block; /* alapértelmezésként, JS majd override-olja */
+    pointer-events: none; /* hogy ne lehessen rákattintani amíg láthatatlan */
+  }
+  #profilformgomb.lathato {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+  #modositogomb{
+    margin-left: 5px;
+    height: 40px;
+    background-color: white;
+    color: grey;
+    font-size: 18px;
+    font-size: clamp(0.75rem, 1.1vw, 1.05rem);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border-color: #007459;
+    margin-top: 12px;
+    position: absolute; 
+  } 
+  #modositogomb:hover{
+      color: #009b77;
+  }
+
+  button:hover {
+    opacity: 0.96;
+    cursor: pointer;
+  }
+
+  .mainContainer{
+    position: relative;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    
+
+    & div {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
+  .fejlecContainer{
+    font-size: 25px;
+    margin-bottom: 30px;
+    border-left: solid 1px #009b77;
+    border-top: solid 1px #009b77;
+    border-right: solid 1px #009b77;
+    border-bottom:solid 5px #007156;
+    border-radius: 0px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+    border: 1px solid lightgrey;
+    & h3 {
+      color: #007156;
+    }
+  }
+  #nevekcim, #elerhetosegekcim, #azonositokcim{
+    border-bottom:solid 5px #007156;
+    border-left: solid 1px #009b77;
+    border-top: solid 1px #009b77;
+    border-right: solid 1px #009b77;
+    background-color: #009B77;
+    border-radius: 0px;
+    border: 1px solid lightgrey;
+    & h2 {
+      color: white;
+    }
+  }
+
+  #nevekinput, #elerhetosegekinput, #azonositokinput{
+    margin-left: 15px;
+    padding: 30px;
+    border-bottom:solid 5px #007156;
+    border-top: solid 1px #009b77;
+    border-right: solid 1px #009b77;
+    border-left: solid 1px #009b77;
+    border-radius: 0px;
+    border: 1px solid lightgrey;
+
+  }
+  #elerhetosegekinput p{
+    text-align: left;
+    font-size: clamp(0.8rem, 1.1vw, 1.2rem);
+    
+    input{
+      width: 64%;
+    }
+  }
+  #azonositokinput p{
+      text-align: left;
+      input{
+          width: 64%;
+      }
+  }
+  #azonositokinput .ujjelszoinput{
+      display: none;
+      text-align: left;
+      width: 64%;
+  }
+
+  #nevekcim, #nevekinput{
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+
+  }
+
+  #elerhetosegekcim, #elerhetosegekinput{
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+
+  }
+
+  #azonositokcim, #azonositokinput{
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+
+  }
+  
+
+
+
+  .loginFormContainer, .regFormContainer{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 102px);
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    
+    
+    position: relative;
+    z-index: 1;
+    
+  }
+  .zformok{
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.3);
+    width: 30%;
+  }
+
+  .profilFormContainer{
+    display: flex;
+    align-items:center;
+    /* height: calc(100vh - 102px); */
+    height: 100%;
+    justify-content: center;
+    xmargin-top: 10px;
+    xborder-color: white;
+    width: 100%;  
+    position: relative;   
+    
+  }
+  #profilkep{
+    display: none;
+  }
+
+
+  .profil-kep {
+    opacity: 0.75;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    
+  
+    /* default image */
+    background: url('https://qph.cf2.quoracdn.net/main-qimg-f32f85d21d59a5540948c3bfbce52e68');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+  }
+
+
+  .file-uploader {
+    /* make it invisible */
+    opacity: 0;
+    /* make it take the full height and width of the parent container */
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    /* make it absolute */
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+
+  .upload-icon {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* initial icon state */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #ccc;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #bbb;
+  }
+  .profil-kep:hover .upload-icon {
+    opacity: 1;
+  }
+  /*-----------------------------Form vége-----------------------------------*/
+
+
+
+
+
+
+
+
+
+#kisablak{
+  display: none;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  height: 38%;
+  background-color: white;
+  z-index: 1;
+  
+  
+ 
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 22px;    
+  border: none;
+  outline: none;
+  color: #777;
+  padding: 14px 16px;
+  background-color: inherit;
+  
+}
+.dropbtn:hover{
+  background-color: #009B77;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.15);
+  z-index: 1;
+  max-width: 55%;
+  max-height: 100%;
+  transition: max-height 0.4s ease, opacity 0.4s ease, visibility 0.4s ease; 
+  
+  
+
+  
+  
+ 
+  
+ 
+}
+
+
+.dropdown-content a {
+
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  xborder: solid black 0.5px;
+  z-index: 1;
+  padding-bottom: 3px; 
+  
+  
+ 
+ 
+ 
+  
+
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  xbackground-color: #009B77;
+  xcolor: white;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+div#belepes a:hover {
+    background-color: white;
+}
+.mcontainer {
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  top: 6px;
+  
+ 
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color: #777;
+  margin: 6px 0;
+  transition: 0.15s;
+ 
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+  background-color: #097;
+  margin: 6px 0;
+  width: 30px;
+ 
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+  background-color: #097;
+  margin: 6px 0;
+  width: 30px;
+}
+.valtozott{
+    background-color: #d0efef;
+        
+}
+
+
+@media screen and (max-width: 1210px) {
+  .dropbtn{
+    color: #FFF;
+    display: none;
+  }
+  .dropdown-content {
+    display: block;
+    position: relative;
+    background-color: #009b77;
+    min-width: 160px;
+    
+    z-index: 2;
+    font-size: calc(.5em + 1.5vw);
+    
+   
+   
+  }
+  .dropdown-content a {
+    width: 100%;
+    
+    
+  }
+
+  
+    #profilform{
+        width: 80%;
+    } 
+
+    #openmenu{
+        z-index: 2;
+        display: block;
+        border-style: none;
+        background-image: url(images/menugombhover.png);
+        background-size: 40px 40px;
+        background-color:#009b77;
+        height: 40px;
+        width: 40px;
+        position: fixed; 
+        top: 31px;
+        right: 15px;
+        
+        
+
+       
+
+        border-radius: 5px;
+       
+
+    }
+    #openmenu:hover{
+
+        background-image: url(images/menugombhover.png);
+        
+    }
+    #openmenu2{
+      display: none;
+    }
+    #felsorolas{
+      
+      position: relative;
+      z-index: 2;
+      display: none;
+      overflow-y: auto;
+     
+      & a{
+        
+            
+            width: 100%;
+            flex-direction: column;
+            
+            top: 105px;
+            padding: none;
+            margin: none;
+            
+            
+
+            
+           
+            left: 0;
+          }
+
+   
+      }
+      
+      #felsorolas.open {
+        display: block;
+        height: 100%;
+        float: right;
+        
+        background-color: #009b77;
+        opacity: 0.95;
+        
+        padding-top: 110px;
+        padding-left: 0px;
+        position: fixed;
+        z-index: 2;
+        right: 0; /* Added to align content to the right side */
+        left: auto; /* Added to prevent left positioning */
+        border-radius: 15px;
+        max-height: 100%;
+        max-width: 400px;
+        width: 40%;
+        box-shadow: -0.5px 0px 8px 1px;
+        top: 0px;
+        font-size: clamp(1rem, 3vw, 1.7rem);
+        overflow-y: auto;
+        overflow-x: hidden;
+        line-height: 35px;
+        
+        
+        
+      
+
+      }
+      .dropdown{
+        border-top: 2px solid #007156;
+        width: 100%;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        background-color: #009B77;
+        height: 25%;
+        font-size: clamp(0.8rem, 1vw, 1rem);
+        line-height: 20px;
+        
+        
+           
+        
+       
+      }
+    #menu{
+      font-size: 30px; 
+      overflow-y: auto;
+      
+    }
+    a#cimerkep {
+      
+      text-align: center;
+      padding-right: 30px;
+    }
+
+    #belepes{
+      width: 35px;
+    }
+    
+    div#menu a
+    {
+      display: block;
+      text-align: left;
+      width: 100%;
+      padding-bottom: 10px;
+      color: white;
+      padding-right: 30px;
+      padding-left: 10px;
+
+      
+      
+      
+    } 
+    div#menu a:hover{
+      background-color: #85bdb0;
+    
+    }
+    #kilepesgomb, #belepesgomb{
+      position:sticky;
+      
+      
+      
+    }
+    div#menu {
+      margin-right: 0px;
+      font-size: 15px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+    }
+    div#belepes{
+      border-top: solid 2px #007156 ;
+      width:100%;
+      height: 10%;
+      top: 90%;
+      margin-right: 0px;
+      padding-bottom: 100px;
+      
+      
+      
+      
+      
+    }
+    #belepesgomb{
+      background-image: url('images/loginszurke2.png');
+      background-color:#007156;
+    }
+    #belepesgomb:hover{
+      background-image: url('images/loginhover.png');
+      width: 30px;
+      height: 30px;
+      
+    }
+    #kilepesgomb{
+      background-image: url('images/logout2.png');
+    }
+    #kilepesgomb:hover{
+      background-image: url('images/logout2.png');
+      width: 30px;
+      height: 30px;
+      
+      
+    }
+    #felsorolaskeret{
+      height: 30%;
+    }
+   
+    #profilkep{
+      display: block;
+      min-height: 60px;
+      position: relative;
+      align-items: center;
+      position: absolute;
+      top: 25px;
+      left: 10px;
+      height: calc(.5em + 1.5vw);
+      max-width: 65px;
+      border-radius: 50%;
+
+    }
+    div#belepes a{
+      color: #333;
+      line-height      : 1.2                   ;
+    }
+    div#belepes a:hover{
+        background-color: #009b77;
+        color: #f2f2f2;
+    }
+    #kilepesgomb:hover{
+        background-image: url(images/logouthover2.png);
+    }
+   
+    .mcontainer {
+        display: none;
+    }
+  div#menu a {
+      width: 50vw;
+  }
+  .dropdown-content {
+      border: none;
+      box-shadow: none;
+  }
+   #nevekinput, #elerhetosegekinput, #azonositokinput{
+    border-radius: 20px;
+    margin-top: 5px;
+
+  }
+  #nevekcim, #elerhetosegekcim, #azonositokcim{
+      border-radius: 20px;
+      
+  }
+  .fejlecContainer{
+      border-radius: 20px;
+  }
+    #profilformgomb{
+        border-radius: 20px;
+   }
+    .zformok{
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.3);
+        width: 50%;
+    }
+
+    
+
+  @media screen and (max-width: 782px) {
+    
+    .mainContainer{
+      grid-template-columns: 1fr;
+    }
+    #nevekcim{
+      margin-bottom: 0px;
+    }
+    #nevekcim, #elerhetosegekcim, #azonositokcim{
+      margin:0px;
+      
+    }
+    .upload-icon {
+      opacity: 0.5;
+    }
+    #nevekinput, #elerhetosegekinput, #azonositokinput{
+      margin-left: 0px;
+    }
+    #profilformgomb{
+      width:85%;
+    }
+    .zformok{
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.3);
+        width: 70%;
+    }
+  }
+   #azonositokinput .ujjelszoinput{
+        text-align: left;
+        width: 100%;
+    } 
+  }
+  
+  @media screen and (max-width: 476px){
+    #elerhetosegekinput p{
+      text-align: left;
+      
+      
+      input{
+        width: 60%;
+      }
+    }
+    #azonositokinput p{
+        text-align: left;
+        input{
+            width: 60%;
+        }
+  }
+  }
+  @media screen and (max-width:440px){
+      .zformok{
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.3);
+        width: 80%;
+    }
+  }
+   @media screen and (max-width:388px){
+      .zformok{
+        border: 1px solid lightgrey;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0,0.3);
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width:375px){
+   
+    #elerhetosegekinput p{
+        text-align: left;
+        font-size: clamp(0.7rem, 3vw, 1.05rem);
+        
+        input{
+        width: 60%;
+        }
+    }
+  @media screen and (max-width: 365px){
+    #elerhetosegekinput p{
+      text-align: left;
+      
+      input{
+        width: 60%;
+      }
+    }
+     div#belepes a:hover{
+        background-color: #009b77;
+        color: #f2f2f2;
+    }
+     #kilepesgomb:hover{
+        background-image: url(images/logouthover2.png);
+    }
+     }
+      
+        
+    @media screen and (max-width: 335px) {
+        #elerhetosegekinput p {
+            input {
+                width: 55%;
+            }
+        }
+        #azonositokinput p {
+            input {
+                width: 55%;
+            }
+    }
+   
+  
+     
+   
+
+#chatTab{
+  width: 50%;
+  height: 50vh;
+  /*margin-bottom: 100px;
+  margin-right: 150px;*/
+}
+
+#barat{
+  z-index: 3000;
+}

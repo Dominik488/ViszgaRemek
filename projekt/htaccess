@@ -1,0 +1,28 @@
+php_value display_errors Off
+php_value mbstring.http_input auto
+php_value date.timezone Europe/Budapest
+  Options -Indexes
+  Options +FollowSymLinks
+  RewriteEngine on
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^(.*)/(.*)/(.*)/(.+)$   index.php?m1=404             [L,QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^(.*)/(.*)/(.*)/$       index.php?m1=$1&m2=$2&m3=$3  [L,QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^(.*)/(.*)/(.+)$        index.php?m1=$1&m2=$2&m3=$3  [L,QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^(.*)/(.*)/$            index.php?m1=$1&m2=$2        [L,QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^(.*)/(.+)$             index.php?m1=$1&m2=$2        [L,QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^(.*)/$                 index.php?m1=$1              [L,QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d  
+  RewriteRule ^(.*)$                  index.php?m1=$1              [L,QSA]
