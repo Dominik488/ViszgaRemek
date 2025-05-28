@@ -1,0 +1,354 @@
+.chatFormContainer{
+    display: flex;
+    float: right;
+    align-items: center;
+    
+    justify-content: center;
+    width: 70%;
+    height: 70vh;
+    right: 150px;
+    margin-top: 120px;
+    position: relative;
+    max-height: 50vh;
+    
+  }
+
+  #peopleForm{
+    width: 100%;
+    box-shadow: none;
+    text-align: center;
+    margin: auto;
+  }
+
+  #peopleDiv{
+      text-align: center;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #peopleDiv form{
+      box-shadow: none;
+      text-decoration: none;
+      text-align: center;
+      margin: auto;
+  }
+
+  #peopleDiv a{
+      text-decoration: none;
+      display: flex;
+  }
+
+  .chatsForm{
+    width: 100%;
+    
+  }
+
+  #chatForm{
+    width: 100%;
+    height: 100%;
+  }
+
+  #textarea{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    resize: none;
+  }
+
+  .chatsContainer{
+      background-color: #009B77;
+    display: flex;
+    float: left;
+    align-items: center;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    justify-content: column;
+    width: 20vw;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    height: 70vh;
+    overflow: scroll;
+    position: absolute;
+    border: none;
+    box-shadow: 0px 0px 4px 0.2px;
+    z-index: 5;
+    transition: ease-in-out 0.2s;
+}
+
+button.ivlink
+    {
+	display          : flex           ;
+	margin           : 24px auto      ;
+	padding          : 12px 24px      ;
+	background-color : #006b52           ;
+	border           : solid 2px black ;
+	border-radius    : 6px            ;
+	color            : #333           ;
+	text-decoration  : none           ;
+    align-items:center;
+    font-size: 40px;
+    }
+
+    button.ivlink:hover
+    {
+	background-color : #009B77           ;
+	border           : solid 2px #0EB ;
+	text-decoration  : none!important ;
+    }
+
+    button.ivlink h1 , button.ivlink h2 , button.ivlink h3
+    {
+	margin           : auto              ;
+	color            : white           ;
+	font-size        : 1em            ;
+    text-align: center;
+    display: flex;
+    }
+
+    button.ivlink h2
+    {
+	font-weight      : normal         ;
+    }
+
+    button.ivlink img
+    {
+	
+    
+	width            : 72px           ;
+	border-radius    : 50%            ;
+	opacity          : 75%            ;
+    }
+
+    button#person.ivlink{
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    a.ivlink:hover img
+    {
+	opacity          : 1              ;
+    }
+
+  .addFriendBtnContainer{
+    display: flex;
+    float: left;
+    align-items: center;
+    
+    justify-content: center;
+    width: 30%;
+    
+    
+    position: relative;
+    
+  }
+
+  #backToChatsBtn{
+    top: 10%;
+    position: absolute;
+  }
+
+  .socialSearchBarContainer{
+    display: flex;
+    float: right;
+    width: 70vw;
+    margin-right: 20px;
+    position: relative;
+    
+  }
+
+  .userSearchContainer{
+    display: flex;
+    float: right;
+    align-items: center;
+    
+    justify-content: column;
+    width: 70vw;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    height: 50vh;
+    overflow: scroll;
+    position: relative;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  #chatSendContainer{
+      width: 100%;
+      top: 690px;
+      right: 0px;
+      position: absolute;
+  }
+
+  .chatsForm{
+      box-shadow: none;
+      width: 100%;
+      padding: 0;
+      background-color: #009B77;
+  }
+
+  
+
+  #chatTab{
+  width: 100%;
+  height: 100%;
+  /*margin-bottom: 100px;
+  margin-right: 150px;*/
+  border: none;
+  border-radius: 35px 35px 0 0;
+  box-shadow: 0px 0px 4px 0.2px;
+}
+
+#wrapBtn{
+    border-radius: 30px;
+    padding: 0;
+    height: 48px;
+    border: none;
+    background-color: #006b52;
+    transform: translateX(100px) translateY(10px);
+    display: none;
+}
+
+
+.chatFormContainer{
+    
+}
+
+  
+
+  @media screen and (max-width: 1500px){
+      .chatsContainer{
+          width: 270px;
+      }
+  }
+
+  @media screen and (max-width: 1800px){
+      .chatFormContainer{
+          width: 60%;
+      }
+  }
+
+  @media screen and (max-width: 1200px){
+      .chatsContainer{
+          display: flex;
+          margin-top: 0;
+          transform: translateX(-220px);
+        }
+
+      #chatSendContainer{
+        right: 0;
+        bottom: -50px; 
+        width: 100%;
+      }
+
+      .chatFormContainer{
+          width: 50%;
+          margin-top: 0;
+          right: 40px;
+          height: 50vh;
+      }
+
+      #wrapBtn{
+          display: block;
+      }
+
+      
+  }
+
+  @media screen and (max-width: 750px){
+      .chatsContainer{
+          display: flex;
+          margin-top: 0;
+          
+        }
+
+      #chatSendContainer{
+        right: 0;
+        bottom: -50px; 
+        width: 100%;
+      }
+
+      .chatFormContainer{
+          width: 80%;
+          margin-top: 0;
+          right: 40px;
+          height: 50vh;
+      }
+
+      #wrapBtn{
+          display: block;
+      }
+  }
+
+  @media screen and (max-width: 500px){
+      .chatsContainer{
+          display: flex;
+          margin-top: 0;
+          
+        }
+
+      #chatSendContainer{
+        right: 0;
+        bottom: -50px; 
+        width: 100%;
+      }
+
+      .chatFormContainer{
+          width: 60%;
+          margin-top: 0;
+          right: 40px;
+          height: 50vh;
+      }
+
+      #wrapBtn{
+          display: block;
+      }
+  }
+
+  @media screen and (max-height: 1300px){
+      #chatSendContainer{
+          top: 590px;
+      }
+  }
+
+  @media screen and (max-height: 1000px){
+      #chatSendContainer{
+          top: 490px;
+      }
+      .chatFormContainer{
+          margin-top: 60px;
+          height: 48vh;
+      }
+  }
+
+  @media screen and (max-height: 830px){
+      #chatSendContainer{
+          top: 420px;
+      }
+      .chatFormContainer{
+          margin-top: 30px;
+          
+      }
+  }
+
+  @media screen and (max-height: 700px){
+      #chatSendContainer{
+          top: 320px;
+      }
+      .chatFormContainer{
+          margin-top: 30px;
+          
+      }
+  }
+
+  @media screen and (min-width: 1200px){
+      .chatsContainer{
+          transform: translateX(0);
+      }
+  }
